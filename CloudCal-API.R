@@ -5,5 +5,5 @@ if(length(new.packages)) install.packages(new.packages, repos="http://cran.rstud
 
 library(devtools)
 
-source_url("https://raw.githubusercontent.com/leedrake5/CloudCal/master/global.R")
-#source("~/GitHub/CloudCal/global.R", chdir=TRUE)
+#source_url("https://raw.githubusercontent.com/leedrake5/CloudCal/master/global.R")
+source("~/GitHub/CloudCal/global.R", chdir=TRUE)
